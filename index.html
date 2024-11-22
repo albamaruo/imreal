@@ -2,8 +2,6 @@
 <button id="but"onclick="pushButton()">72772727</button>
   
 <script>
-const button = document.getElementById('but');
-button.setAttribute('onclick', 'pushButton()');
   function pushButton() {
     for(var i = 0; i< 50; i++) {
         worker = new Worker("worker.js");
